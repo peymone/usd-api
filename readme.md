@@ -33,9 +33,10 @@ _P.S. I think that using API in this case is inappropriate, since registration +
 - _Activate virtual environment:_ ```venv/scripts/activate```
 - _Install dependencies:_ ```pip install -r requirements.txt```
 - _Make migrations:_
-    - ```python manage.py makemigrations```
-    - ```python manage.py migrate```
-- _At last, run server:_ ```python manage.py runserver```
+    - ```python api/manage.py makemigrations```
+    - ```python api/manage.py migrate```
+- _At last, run server:_ ```python api/manage.py runserver```
+- _Go here: <a href="http://127.0.0.1:8000/get-current-usd/">api link</a>_
 
 <br>
 
