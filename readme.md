@@ -18,9 +18,11 @@ _**Another test task. Here are the details:**_
 
 ```
 
-Create a basic Django project that, when calling "/get-current-usd/", will return the current dollar to ruble exchange rate in JSON format and the last 10 rate requests.
+Create a basic Django project that, when calling "/get-current-usd/", will return
+        the current dollar to ruble exchange rate in JSON format and the last 10 rate requests.
 
-To get the rate, use an external API (choose the appropriate one yourself). There should be a pause of at least 10 seconds between each rate request.
+To get the rate, use an external API (choose the appropriate one yourself).
+There should be a pause of at least 10 seconds between each rate request.
 
 ```
 
