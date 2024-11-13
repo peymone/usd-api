@@ -29,9 +29,7 @@ def get_current_usd(request):
         
         # Convert time in database from utc to local
         time_with_localzone = exchange_rate['time'].astimezone(get_localzone())
-        formated_time = datetime.strftime(time_with_localzone, time_format)
-        print(formated_time, ': ', exchange_rate['usd'])
-        
+        formated_time = datetime.strftime(time_with_localzone, time_format)        
         
         json_response[formated_time] = exchange_rate['usd']
                 
